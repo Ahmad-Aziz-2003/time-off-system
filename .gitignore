@@ -1,0 +1,20 @@
+# Root-level generated output
+/.nyc_output
+/dist
+/build
+/node_modules
+/*.log
+
+# Frontend build/test output
+/frontend/.next
+/frontend/node_modules
+/frontend/playwright-report
+
+
+# Backend build/test output
+/backend/dist
+/backend/node_modules
+
+# Editor and OS noise
+.DS_Store
+Thumbs.db
