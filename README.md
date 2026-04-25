@@ -27,6 +27,7 @@ Open **three terminals** and run services in order:
 
 ### 1. Start Mock HCM Server
 
+
 ```bash
 cd backend
 npm install

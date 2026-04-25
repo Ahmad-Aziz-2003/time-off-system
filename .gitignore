@@ -1,20 +1,78 @@
-# Root-level generated output
-/.nyc_output
-/dist
-/build
-/node_modules
-/*.log
+# =====================
+# Dependencies
+# =====================
+node_modules/
+.pnp/
+.pnp.*
+.yarn/*
 
-# Frontend build/test output
-/frontend/.next
-/frontend/node_modules
-/frontend/playwright-report
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
 
+# =====================
+# Build outputs
+# =====================
+dist/
+build/
+.next/
+out/
 
-# Backend build/test output
-/backend/dist
-/backend/node_modules
+# =====================
+# Logs
+# =====================
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+lerna-debug.log*
 
-# Editor and OS noise
+# =====================
+# OS files
+# =====================
 .DS_Store
-Thumbs.db
+
+# =====================
+# Coverage / Tests
+# =====================
+coverage/
+.nyc_output/
+
+# =====================
+# IDEs
+# =====================
+.idea/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# =====================
+# Environment variables
+# =====================
+.env
+.env.*
+!.env.example
+
+# =====================
+# Runtime files
+# =====================
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# =====================
+# Debug / Reports
+# =====================
+report.*.json
+
+# =====================
+# Framework extras
+# =====================
+.vercel/
+*.tsbuildinfo
+next-env.d.ts
